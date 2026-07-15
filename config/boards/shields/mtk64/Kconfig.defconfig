@@ -1,7 +1,7 @@
 if SHIELD_MTK64_R
 
 config ZMK_KEYBOARD_NAME
-    default "mtk64"
+    default "mtk64_R"
 
 config ZMK_SPLIT
     default y
@@ -21,12 +21,12 @@ config ZMK_SPLIT
 
 endif
 
-if SHIELD_MTK64_FOOT
+# if SHIELD_MTK64_FOOT
 
-config ZMK_KEYBOARD_NAME
-    default "mtk64_FOOT"
+# config ZMK_KEYBOARD_NAME
+#     default "mtk64_FOOT"
 
-config ZMK_SPLIT
-    default y
+# config ZMK_SPLIT
+#     default y
 
-endif
+# endif
